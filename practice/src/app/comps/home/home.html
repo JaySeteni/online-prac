@@ -1,7 +1,13 @@
 <content>
-  <aside> empty</aside>
-  <main>
-    <h1> Welcome to Github codespaces</h1>
+  <aside>
     <p>ndyamosha</p>
+  </aside>
+  
+  <main>
+    @if (isLoggedIn) {
+     <h1>{{username}}, Welcome to Github codespaces! </h1>
+   } @else {
+     <h2>Please log in to continue.</h2>
+   }
   </main>
 </content>

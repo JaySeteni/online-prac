@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class Home {
 
+  username = 'Jay';
+
+    isLoggedIn = true;
+
 }

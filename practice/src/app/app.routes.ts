@@ -18,11 +18,13 @@ import { Profile } from './comps/profile/profile';
 import { Search } from './comps/search/search';
 import { Settings } from './comps/settings/settings';
 import { Landing } from './comps/landing/landing';
+import { Spinner } from './comps/spinner/spinner';
+
 // User imports end
 
 //  User comps 
 export const routes: Routes = [
-      {path: '', redirectTo:'welcome' , pathMatch: 'full'},
+      {path: '', redirectTo:'home' , pathMatch: 'full'},
       {path : 'signup', component: Signup},
       {path : 'signin', component: Signin},
       {path : 'home', component: Home},
@@ -40,6 +42,7 @@ export const routes: Routes = [
       {path : 'navigation', component: Navigation},
       {path : 'search', component: Search},
       {path : 'settings', component: Settings},
+      {path: 'spinner', component: Spinner},
 
     //   User comps end
 
